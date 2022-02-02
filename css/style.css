@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
 
 :root {
   --main-color: #ffea00;
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-weight: 400;
   background-color: var(--main-color);
 }
