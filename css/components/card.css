@@ -1,13 +1,23 @@
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   text-align: center;
+  margin-right: 40px;
 }
 
 .card-image {
   cursor: pointer;
   position: relative;
-  width: 320px;
-  height: 320px;
-  background-color: red;
+  margin: 0;
+  width: 240px;
+  height: 240px;
+  background-color: #FFEA34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
 }
 
@@ -15,9 +25,6 @@
   top: -8px;
 }
 
-.card-text {
-  text-transform: capitalize;
-  font-weight: 700;
-  font-size: 25px;
-  color: var(--color-sub);
+.image {
+  width: 80%;
 }

@@ -1,0 +1,17 @@
+.dashboard {
+  border: black;
+  border
+}
+
+.dashboard-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.sub {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
