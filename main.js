@@ -8,7 +8,7 @@ const selectionComputer = document.querySelector('.computer-selection');
 let playerScore = 0;
 let computerScore = 0;
 
-// Start Game when user clicks on an image
+// start game
 images.forEach((image) =>
   image.addEventListener('click', () => {
     if (playerScore >= 5 || computerScore >= 5) {
@@ -18,7 +18,7 @@ images.forEach((image) =>
   })
 );
 
-/* Game Logic */
+// game logic
 
 function getComputerSelection() {
   let computerNumber = random(3);
@@ -105,7 +105,7 @@ function game(playerSelect) {
   }
 }
 
-/* Helper Functions */
+// helpers
 function random(number) {
   return Math.floor(Math.random() * number + 1);
 }
@@ -115,4 +115,3 @@ function capitalize(string) {
     string.toLowerCase().charAt(0).toUpperCase() + string.toLowerCase().slice(1)
   );
 }
-/* ************************ */

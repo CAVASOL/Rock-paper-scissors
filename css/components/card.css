@@ -1,0 +1,23 @@
+.card {
+  text-align: center;
+}
+
+.card-image {
+  cursor: pointer;
+  position: relative;
+  width: 320px;
+  height: 320px;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.card-image:hover {
+  top: -8px;
+}
+
+.card-text {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--color-sub);
+}
