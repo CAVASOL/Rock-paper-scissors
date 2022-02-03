@@ -24,19 +24,18 @@ body {
   background-color: #FFEB74;
 }
 
-.heading {
-  margin: 20px 0;
-  text-align: center;
-  color: var(--color-sub);
-  font-size: 32px;
-}
-
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* p {
   margin-bottom: 10px;
