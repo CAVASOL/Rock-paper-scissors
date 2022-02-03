@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Permanent+Marker&display=swap');
 @import url('components/card.css');
+@import url('components/game.css');
 @import url('components/dashboard.css');
 
 :root {
@@ -21,21 +21,16 @@ html {
 
 body {
   font-family: 'Permanent Marker', cursive;
-  background-color: #FFEB74;
+  background-color: #FDDC4B;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 
-.left-side {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 /* p {
   margin-bottom: 10px;

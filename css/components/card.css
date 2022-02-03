@@ -1,8 +1,4 @@
-.left-side {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .heading {
   margin: 20px;
@@ -33,7 +29,7 @@
   align-items: center;
   border-radius: 20px;
   border-style: solid;
-  border-width: 4px;
+  border-width: 6px;
   border-color: var(--color-sub);
 }
 
