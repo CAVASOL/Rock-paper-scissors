@@ -2,6 +2,7 @@
   text-align: center;
   color: var(--color-sub);
   font-size: 48px;
+  font-weight: border;
 }
 
 .message {
