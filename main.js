@@ -73,13 +73,6 @@ function playRound(playerSelection, computerSelection) {
   return log;
 }
 
-function createParagWithText(text) {
-  const p = document.createElement('p');
-  p.textContent = text;
-
-  return p;
-}
-
 function game(playerSelect) {
   let playerSelection = capitalize(playerSelect);
   let computerSelection = getComputerSelection();
