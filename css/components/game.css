@@ -2,14 +2,13 @@
   text-align: center;
   color: var(--color-sub);
   font-size: 48px;
-  font-weight: border;
 }
 
 .message {
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
   color: #4298E7;
-  margin-bottom: 40px;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
+  margin-top: 20px;
 }

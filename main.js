@@ -76,7 +76,6 @@ function playRound(playerSelection, computerSelection) {
 function game(playerSelect) {
   let playerSelection = capitalize(playerSelect);
   let computerSelection = getComputerSelection();
-
   let roundResult = playRound(playerSelection, computerSelection);
 
   if (roundResult.search('You Win!') > -1) {
@@ -93,8 +92,10 @@ function game(playerSelect) {
 
   if (playerScore >= 5 && computerScore < 5) {
     message.textContent = 'Game Over. You Win!';
+    window.location.reload();
   } else if (playerScore < 5 && computerScore >= 5) {
     message.textContent = 'Game Over. You Lose!';
+    window.location.reload();
   }
 }
 
