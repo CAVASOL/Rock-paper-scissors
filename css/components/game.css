@@ -1,7 +1,7 @@
 .heading {
   text-align: center;
   color: var(--color-sub);
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .message {
@@ -10,5 +10,5 @@
   color: #4298E7;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
-  margin-top: 20px;
+  margin: 40px
 }

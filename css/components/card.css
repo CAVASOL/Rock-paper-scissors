@@ -1,17 +1,13 @@
-.heading {
-  text-align: center;
-  color: var(--color-sub);
-  font-size: 32px;
-}
-
 .cards {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  flex-grow: 1;
 }
 
 .card {
   text-align: center;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 
 .card-image {

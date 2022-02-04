@@ -8,17 +8,14 @@ const selectionComputer = document.querySelector('.computer-selection');
 let playerScore = 0;
 let computerScore = 0;
 
-// start game
 images.forEach((image) =>
   image.addEventListener('click', () => {
     if (playerScore >= 5 || computerScore >= 5) {
-      return;
+      return window.location.reload();
     }
     game(image.dataset.image);
   })
 );
-
-// game logic
 
 function getComputerSelection() {
   let computerNumber = random(3);
@@ -73,9 +70,17 @@ function playRound(playerSelection, computerSelection) {
   return log;
 }
 
+function createParagWithText(text) {
+  const p = document.createElement('p');
+  p.textContent = text;
+
+  return p;
+}
+
 function game(playerSelect) {
   let playerSelection = capitalize(playerSelect);
   let computerSelection = getComputerSelection();
+
   let roundResult = playRound(playerSelection, computerSelection);
 
   if (roundResult.search('You Win!') > -1) {
@@ -92,14 +97,11 @@ function game(playerSelect) {
 
   if (playerScore >= 5 && computerScore < 5) {
     message.textContent = 'Game Over. You Win!';
-    window.location.reload();
   } else if (playerScore < 5 && computerScore >= 5) {
     message.textContent = 'Game Over. You Lose!';
-    window.location.reload();
   }
 }
 
-// helpers
 function random(number) {
   return Math.floor(Math.random() * number + 1);
 }
