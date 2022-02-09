@@ -4,11 +4,21 @@
   font-size: 32px;
 }
 
+.na {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-sub);
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  margin-bottom: 0;
+}
+
 .message {
   text-align: center;
   font-size: 40px;
   color: #4298E7;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
-  margin: 40px
+  margin-top: 16px;
+  margin-bottom: 40px;
 }
