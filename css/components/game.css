@@ -13,6 +13,11 @@
   margin-bottom: 0;
 }
 
+.nana {
+  color: var(--color-sub);
+  text-decoration: none;
+}
+
 .message {
   text-align: center;
   font-size: 40px;

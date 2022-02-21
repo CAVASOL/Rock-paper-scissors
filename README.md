@@ -1,5 +1,5 @@
 # Rock Paper Scissors
 
-Classic game 'Rock paper scissors'
+Classic hand game 'Rock paper scissors' for mobile
 
 <img src="./rpc.png" width="32%" />
