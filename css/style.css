@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Amatic SC', cursive;
   /* font-family: 'Amatic SC', cursive; */
   background-color: var(--main-color);
 }
@@ -42,7 +42,8 @@ body {
   }
 
   .heading {
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: 200;
   }
 
   .message {
@@ -68,7 +69,8 @@ body {
   }
 
   .heading {
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: 200;
   }
 
   .message {

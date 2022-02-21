@@ -12,16 +12,24 @@
 }
 
 .sub {
-  font-size: 24px;
+  font-size: 32px;
   margin-bottom: 10px;
 }
 
 .player-score {
   /* color: #E54867; */
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .computer-score {
   /* color: #E54867; */
-  font-size: 32px;
+  font-size: 36px;
+}
+
+.player-selection {
+  font-size: 28px;
+}
+
+.computer-selection {
+  font-size: 28px;
 }
